@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+.upperbody{
+    background-image: url(../PSD/box-market-electronic-ordering-shop-basket.jpg);
+    height: 130vh;
+    width: 100%;
+    background-size: cover;
+    border-radius: 30px;
+    position: relative;
+    background-attachment: scroll;
+}
+.upperbody .project{
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    opacity: 0.7;
+    text-align: center;
+    padding: 40px;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.upperbody .project h1{
+  font-size: 40px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+.upperbody .project button{
+  width: 170px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.upperbody .project a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cards{
+    display: inline-block;
+}
+.cards .text h1{
+    font-size: 40px;
+    font-family: cursive;
+    padding: 10px;
+    width: fit-content;
+    margin-left: 46%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px dashed rgb(0, 0, 0);
+    border-radius: 50px;
+}
+.cards .c1{
+      display: inline-block;
+      border: 3px double black;
+      border-radius: 50px;
+      text-align: center;
+      padding: 30px;
+      margin-left: 150px;
+}
+.cards .c1 img{
+    width: 200px;
+}
+.cards .c1 h1{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+.cards .c1 p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 10px;
+}
+.cards .c1 a{
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+    
+}
+.cards .c2{
+    display: inline-block;
+    border: 3px double black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 30px;
+}
+.cards .c2 img{
+  width: 200px;
+}
+.cards .c2 h1{
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+}
+.cards .c2 p{
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px 10px; 
+}
+.cards .c2 a{
+  text-decoration: none;
+  color: red;
+  font-size: 15px;
+}
+.cards .c3{
+    display: inline-block;
+    border: 3px double black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 30px;
+}
+.cards .c3 img{
+  width: 200px;
+}
+.cards .c3 h1{
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+}
+.cards .c3 p{
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px 10px;
+}
+.cards .c3 a{
+  text-decoration: none;
+  color: red;
+  font-size: 15px;
+}
+.cards .c4{
+    display: inline-block;
+    border: 3px double black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 30px;
+}
+.cards .c4 img{
+  width: 200px;
+}
+.cards .c4 h1{
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+}
+.cards .c4 p{
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px 10px;
+}
+.cards .c4 a{
+  text-decoration: none;
+  color: red;
+  font-size: 15px;
+}
+.cards .c5{
+    display: inline-block;
+    border: 3px double black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 30px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.cards .c5 img{
+  width: 200px;
+}
+.cards .c5 h1{
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+}
+.cards .c5 p{
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px 10px;
+}
+.cards .c5 a{
+  text-decoration: none;
+  color: red;
+  font-size: 15px;
+}
+.cards .c6{
+    display: inline-block;
+    border: 3px double black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 30px;
+}
+.cards .c6 img{
+  width: 200px;
+}
+.cards .c6 h1{
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+}
+.cards .c6 p{
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px 10px;
+}
+.cards .c6 a{
+  text-decoration: none;
+  color: red;
+  font-size: 15px;
+}
+.cards .c7{
+  display: inline-block;
+  border: 3px double black;
+  border-radius: 50px;
+  text-align: center;
+  padding: 30px;
+}
+.cards .c7 img{
+width: 200px;
+}
+.cards .c7 h1{
+font-size: 25px;
+font-family: 'Courier New', Courier, monospace;
+padding: 10px;
+}
+.cards .c7 p{
+font-size: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 20px 10px;
+}
+.cards .c7 a{
+text-decoration: none;
+color: red;
+font-size: 15px;
+}
+.cards .c8{
+  display: inline-block;
+  border: 3px double black;
+  border-radius: 50px;
+  text-align: center;
+  padding: 30px;
+}
+.cards .c8 img{
+width: 200px;
+}
+.cards .c8 h1{
+font-size: 25px;
+font-family: 'Courier New', Courier, monospace;
+padding: 10px;
+}
+.cards .c8 p{
+font-size: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 20px 10px;
+}
+.cards .c8 a{
+text-decoration: none;
+color: red;
+font-size: 15px;
+}
